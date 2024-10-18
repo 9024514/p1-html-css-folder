@@ -1,0 +1,31 @@
+html{
+    font-size: 1rem;
+}
+    
+h1{
+    color: aqua;
+    text-decoration:underline;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.roboto-condensed{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 5px;
+    border-style: dashed;
+    border-color: chartreuse;
+    font-size: 40px;
+
+}
+
+p{
+    font-size: 2em;
+
+}

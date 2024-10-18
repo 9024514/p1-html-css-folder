@@ -1,0 +1,40 @@
+h1{
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    .italic-text{
+        font-style: italic;
+    }
+    .full-screen-header{
+        width: 100%;
+        min-height: 33vh;
+    }   
+}
+
+
+h2{
+    font-size: 20px;
+  color: #0000ff;
+  font-weight: bold;
+}
+
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+.box1{
+    font-weight: bold;
+}
+
+p{
+    color: #4D4D4D;
+}
+
+a{
+    color: #8a2be2;
+    .no-underline{
+        text-decoration: none;
+    }
+}

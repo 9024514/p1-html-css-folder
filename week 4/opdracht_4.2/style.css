@@ -1,0 +1,70 @@
+header{
+    width: 100vw; /* Volledige breedte van het scherm */
+    min-height: 33vh;
+    background: url(img/download.jpg) no-repeat center center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(13, 255, 0);
+    padding: 20px;
+    font-size: larger;
+}
+
+
+h1{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    .italic-text{
+        font-style: italic;
+
+    }
+}
+
+
+h2{
+    font-size: 20px;
+  color: #0000ff;
+  font-weight: bold;
+}
+
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+.box1{
+    font-weight: bold;
+    color: rgb(47, 255, 0);
+    font-size: 25px;
+}
+
+p{
+    color: #ff0000;
+}
+
+a{
+    color: #8a2be2;
+    .no-underline{
+        text-decoration: none;
+    }
+}
+
+article{
+    border: 2px solid #ff0000;
+    border-left-width: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px rgb(255, 0, 0);
+}
+img{
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
